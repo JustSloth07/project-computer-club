@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+}
+#map {
+  height: 600px;
+  width: 900px;
+  border: 2px solid #ccc;
+  margin: auto;
+}
+input,
+button,
+select {
+  padding: 6px;
+  margin-bottom: 8px;
+}
+
+#suggestions {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  width: 260px;
+  max-height: 180px;
+  overflow-y: auto;
+  z-index: 9999;
+}
+
+.suggestion-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background: #f0f0f0;
+}
